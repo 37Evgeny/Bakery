@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-left: 135px;
+  position: relative;
 }
 
 .every_day__year {
@@ -28,14 +28,30 @@
 }
 
 .every_day__left {
+    padding-left: 135px;
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 27px;
     justify-content: center;
+    background-image: url("../../img/bg__every_day.png");
 }
 
 .every_days__img {
     width: 100%;
     height: 100%;
 }
+
+.every__day__left__img {
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.every__day__left__img__2 {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+
