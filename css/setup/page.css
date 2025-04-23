@@ -1,0 +1,24 @@
+/* Стили для страницы (page) */
+.page {
+  min-height: 100vh; /* Минимальная высота страницы равна 100% высоты видимой области браузера */
+  display: flex; /* Используем flexbox для расположения дочерних элементов */
+  flex-direction: column; /* Элементы располагаются в вертикальном направлении (столбик) */
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Ultra;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0px;
+  text-align: left;
+}
