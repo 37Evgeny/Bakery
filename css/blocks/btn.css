@@ -13,3 +13,19 @@
   background: rgb(0, 0, 0);
   padding: 11px 42px;
 }
+
+.btn__top {
+  border-radius: 24px;
+  background: rgb(23, 27, 27);
+  width: 48px;
+  height: 48px;
+  transform: rotate(-90.00deg);
+}
+
+.btn__bottom {
+    border-radius: 24px;
+    background: rgb(23, 27, 27);
+    width: 48px;
+    height: 48px;
+    transform: rotate(90.00deg);
+}

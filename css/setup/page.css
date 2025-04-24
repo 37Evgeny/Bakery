@@ -22,3 +22,13 @@ h1 {
   letter-spacing: 0px;
   text-align: left;
 }
+
+h2 {
+  color: rgb(23, 27, 27);
+  font-family: Ultra;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-align: left;
+}
