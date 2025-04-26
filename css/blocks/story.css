@@ -1,0 +1,53 @@
+.story__cnt {
+    position: relative; /* Устанавливаем позицию для родительского элемента */
+    display: flex;
+    padding-top: 153px;
+    padding-bottom: 148px;
+    background-image: url(../../img/story.png);
+    background-size: cover; /* Убедитесь, что изображение покрывает весь элемент */
+    background-position: center; /* Центрируем изображение */
+}
+
+.story__cnt::before {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 0; /* Начинаем с верхней части родителя */
+    left: 0; /* Начинаем с левой части родителя */
+    right: 0; /* Растягиваем до правой части родителя */
+    bottom: 0; /* Растягиваем до нижней части родителя */
+    background-color: rgba(0, 0, 0, 0.5); /* Черный цвет с прозрачностью (можно настроить) */
+    z-index: 1; /* Устанавливаем z-index, чтобы он был выше фона, но ниже содержимого */
+}
+
+.story__cnt > * {
+    position: relative; /* Устанавливаем позицию для дочерних элементов, чтобы они были выше псевдоэлемента */
+    z-index: 2; /* Устанавливаем z-index для содержимого, чтобы оно было выше затемнения */
+}
+
+.story__left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story__right {
+  width: 50%;
+}
+
+.story__our {
+  color: rgb(255, 255, 255);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+
+.story__title {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
