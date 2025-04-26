@@ -19,21 +19,21 @@
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    padding: 16px 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 5px;
 }
 
 .header__nav__cnt {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .header__nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 72px;
 }
