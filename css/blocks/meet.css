@@ -1,0 +1,60 @@
+.meet__cnt {
+  display: flex;
+}
+
+.meet__title {
+  text-align: left;
+}
+
+.meet__left {
+  width: 50%;
+}
+
+.meet__cards__cnt {
+  display: flex;
+  gap: 52px;
+}
+
+.meet__card__our {
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.meet__card__title {
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.meet__card__text {
+  color: rgba(51, 51, 51, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.meet__list {
+  color: rgb(23, 27, 27);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+
+
