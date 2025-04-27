@@ -17,17 +17,16 @@
 .btn__transparent {
   padding: 11px 60px;
   box-sizing: border-box;
-border: 1px solid rgba(23, 27, 27, 0.24);
-border-radius: 2px;
-color: rgb(23, 27, 27);
-font-family: Oswald;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: center;
-text-transform: uppercase;
-
+  border: 1px solid rgba(23, 27, 27, 0.24);
+  border-radius: 2px;
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .btn__top {
@@ -35,13 +34,20 @@ text-transform: uppercase;
   background: rgb(23, 27, 27);
   width: 48px;
   height: 48px;
-  transform: rotate(-90.00deg);
+  transform: rotate(-90deg);
 }
 
 .btn__bottom {
-    border-radius: 24px;
-    background: rgb(23, 27, 27);
-    width: 48px;
-    height: 48px;
-    transform: rotate(90.00deg);
+  border-radius: 24px;
+  background: rgb(23, 27, 27);
+  width: 48px;
+  height: 48px;
+  transform: rotate(90deg);
+}
+
+.btn__white {
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
 }
