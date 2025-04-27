@@ -1,0 +1,135 @@
+.fresh__our {
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.fresh__title {
+  text-align: left;
+}
+
+.fresh__title {
+  margin-top: 18px;
+}
+
+.fresh__cnt {
+  margin-top: 105px;
+}
+
+.fresh__cat {
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.fresh__name {
+  color: rgb(23, 27, 27);
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.fresh__price {
+  color: rgb(23, 27, 27);
+  font-family: Ultra;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.fresh__name__cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fresh__atr {
+  padding: 25px 32px 35px 32px;
+}
+
+.fresh__cards {
+  margin-top: 69px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 370px);
+  grid-template-rows: auto auto;
+}
+
+.item1 {
+  grid-column: span 2;
+}
+
+.image-container {
+    position: relative; /* Относительное позиционирование для контейнера изображения */
+}
+
+.card__img2 {
+    width: 100%; /* Ширина изображения на всю ширину карточки */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.text-overlay {
+    width: 322px;
+    position: absolute; /* Абсолютное позиционирование для наложения текста */
+    top: 70%; /* Центрирование по вертикали */
+    left: 30%; /* Центрирование по горизонтали */
+    transform: translate(-50%, -50%); /* Сдвиг на половину ширины и высоты для точного центрирования */
+    color: white; /* Цвет текста (можно изменить) */
+    text-align: left; /* Центрирование текста */
+}
+
+.fresh_cat {
+    font-size: 14px; /* Размер шрифта для категории */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+}
+
+.fresh_name {
+    font-size: 24px; /* Размер шрифта для названия */
+    font-weight: bold; /* Жирный шрифт для названия */
+}
+
+.fresh_text {
+    font-size: 16px; /* Размер шрифта для описания */
+}
+
+.fresh_name {
+  color: rgb(255, 255, 255);
+  font-family: Ultra;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.fresh_text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.fresh_btn__cnt {
+    margin: 64px 0px 100px 0px;
+    display: flex; /* Используем flexbox для центрирования */
+    justify-content: center; /* Центрируем по горизонтали */
+}
+
