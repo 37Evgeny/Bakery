@@ -1,9 +1,11 @@
 .meet__cnt {
   display: flex;
+  padding: 150px 0px 114px 0px;
 }
 
 .meet__title {
   text-align: left;
+  margin-top: 18px;
 }
 
 .meet__left {
@@ -13,6 +15,7 @@
 .meet__cards__cnt {
   display: flex;
   gap: 52px;
+  margin-top: 62px;
 }
 
 .meet__card__our {
@@ -27,6 +30,7 @@
 }
 
 .meet__card__title {
+  margin-top: 22px;
   color: rgb(23, 27, 27);
   font-family: Oswald;
   font-size: 24px;
@@ -37,6 +41,7 @@
 }
 
 .meet__card__text {
+  margin-top: 22px;
   color: rgba(51, 51, 51, 0.5);
   font-family: DM Sans;
   font-size: 16px;
@@ -47,6 +52,7 @@
 }
 
 .meet__list {
+  margin-top: 24px;
   color: rgb(23, 27, 27);
   font-family: DM Sans;
   font-size: 16px;
@@ -56,5 +62,27 @@
   text-align: left;
 }
 
+.meet__list li {
+  margin-top: 16px;
+}
 
+.meet_right__img {
+  width: 75%;
+  height: 90%;
+  z-index: 5;
+}
 
+.meet__right {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet__bg {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    right: 15%;
+}
