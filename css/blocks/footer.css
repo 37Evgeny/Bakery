@@ -1,0 +1,46 @@
+.footer__logo {
+  color: rgb(255, 255, 255);
+  font-family: Ultra;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer__title {
+  color: rgb(255, 255, 255);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__link {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.footer {
+  background: rgb(0, 0, 0);
+  padding: 50px 0px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+}
